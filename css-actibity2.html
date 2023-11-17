@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actibity</title>
+</head>
+
+<style>
+    body{
+        width: 100%;
+        margin: 50px auto;
+        background-color: antiquewhite;
+    }
+
+    .main{
+        width: 630px;
+        height: 500px;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
+    }
+    .person-area{
+        float: left;
+        width: 300px;
+        margin: 0 5px;
+        box-shadow: 3px 3px 3px 3px rgb(157, 157, 157);
+    }
+    .area1{
+        background-color: rgb(40, 112, 171);
+    }
+    .area2{
+        background-color: green;
+        border-radius: 10px 10px 0 0px;
+    }
+    .round{
+        border-radius: 10px 10px 0 0px;
+    }
+    img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .name{
+        font-weight: bold;
+    }
+    p{
+        padding-left: 20px;
+    }
+
+</style>
+
+<body>
+    <div class="main">
+        <h1>Profile Cards</h1>
+
+        <!-- Person 1 -->
+        <div class="person-area">
+            <img class="area1" src="assets/person-man-1.png" alt="">
+            <p class="name">John Doe</p>
+            <p class="name-text">Architext and Designer</p>
+        </div>
+
+        <!-- Person 2 -->
+        <div class="person-area round">
+            <img class="area2" src="assets/person-woman-1.png" alt="">
+            <p class="name">John Doe</p>
+            <p class="name-text">Chef</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

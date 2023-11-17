@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Activity</title>
+</head>
+
+<style>
+    table{
+        width: 800px;
+        border: solid 2px black;
+    }
+    tbody{
+        border: none;
+    }
+    thead{
+        background-color: rgb(220, 112, 112);
+        color: white;
+        border: none;
+
+    }
+    tbody,tr,td{
+        border-collapse: separate;
+        margin: 0 auto;
+        text-align:center;
+    }
+    .odd{
+        background-color: rgb(232, 182, 156);
+    }
+    .even{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .image{
+        background-image: url(assets/person-icon.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+</style>
+
+<body>
+    
+    <table>
+        <thead>
+            <th style="border: none;">ID No.</th>
+            <th>PHOTO</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>EMAIL</th>
+            <th>ADDRESS</th>
+        </thead>
+
+        <tr class="odd">
+            <td>1</td>
+            <td class="image"></td>
+            <td>Alice</td>
+            <td>26</td>
+            <td><a href="">alice@email.com</a></td>
+            <td>35553 KENAI SPUR HIGHWAY</td>
+        </tr>
+        <tr class="even">
+            <td>2</td>
+            <td class="image"></td>
+            <td>Canadice</td>
+            <td>26</td>
+            <td><a href="">Canadice@email.com</a></td>
+            <td>1616 GADSDEN HWY</td>
+        </tr>
+        <tr class="odd">
+            <td>3</td>
+            <td class="image"></td>
+            <td>Troy</td>
+            <td>26</td>
+            <td>N/A</td>
+            <td>35553 9256 PARKWAY E</td>
+        </tr>
+        <tr class="even">
+            <td>4</td>
+            <td class="image"></td>
+            <td>Gab</td>
+            <td>26</td>
+            <td>N/A</td>
+            <td>AVALON AVE.</td>
+        </tr>
+        <tr class="odd">
+            <td>5</td>
+            <td class="image"></td>
+            <td>Alice</td>
+            <td>26</td>
+            <td><a href="">alice@email.com</a></td>
+            <td>3006 E HIGHLAND</td>
+        </tr>
+    </table>
+
+</body>
+</html>

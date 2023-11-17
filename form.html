@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+<style>
+    *{
+        color: blue;
+    }
+
+    /* class selector */
+    .class-name{
+        color: blue;
+    }
+
+    /* id selector */
+    #h1{
+        color: red;
+        opacity: 1;
+        font-family: 'Times New Roman', Times;
+        font-size: 50px;
+        font-style: italic;
+        text-transform: capitalize;
+        text-decoration: overline;
+    }
+    /*  font styles = italic, normal, oblique */
+    /* text-transform = capitalize, uppercase, lowercase */
+    /* overline, line-through, underline */
+
+h2{
+    text-align: center;
+}
+
+</style>
+
+    <h1 id="h1">Hello World</h1>
+    <h2 class="h2">Yes</h2>
+    <form action="table.html" >
+        <label class="class-name" name="full-name"> Full Name</label>
+        <input type="text" name="full-name" id="full-name" placeholder="Enter First Name"><br>
+
+        <label for="number" id="id-number"> Phone Name</label>
+        <input type="number" min="10" name="number" placeholder="Enter Number Only"><br>
+
+        <label for="password"> Password</label>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="data"> Birthday</label>
+        <input type="date" name="bdata" id="bdata"><br>
+
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="comments"> Comments</label>
+        <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+
+        <br><br>
+        <!-- radio area -->
+        <p>Please </p>
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+
+        <label for="mango">Cherry</label>
+        <input type="radio" name="fruit" id="cherry" value="cherry">
+
+        <label for="mango">Pineapple</label>
+        <label type="radio" name="fruit" id="pineapple" value="pineapple"></label>
+
+        <br><br>
+        <!-- checkbox area -->
+        <p>Please </p>
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="car" id="suzuki" value="suzuki">
+
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="car" id="suzuki" value="suzuki">
+
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="car" id="suzuki" value="suzuki">
+
+        <br><br>
+        <!-- drop down -->
+        <label for="device">What </label>
+        <select name="device" id="device">
+                <option value="Windows">Windows</option>
+                <option value="IOS">IOS</option>
+                <option value="Linux">Linux</option>
+                <option value="Ubuntu">Ubuntu</option>
+        </select>
+
+        <br><br>
+        <!-- drop down -->
+        <label for="device">What </label>
+        <select name="device" id="device" multiple>
+                <option value="Windows">Windows</option>
+                <option value="IOS">IOS</option>
+                <option value="Linux">Linux</option>
+                <option value="Ubuntu">Ubuntu</option>
+        </select>
+
+        <br><br>
+        
+        <input type="file">
+
+
+        <input type="submit" name="submit" value="submit">
+    </form>
+
+</body>
+</html>

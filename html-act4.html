@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        p{margin: 0;}
+    </style>
+    
+<h1>Please fill this survey form</h1>
+<form action="table1.html">
+
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" id="first-name">
+    <label for="mi">MI:</label>
+    <input type="text" name="mi" id="mi">
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="last-name" id="last-name"><br>
+
+    <label for="city">City:</label>
+    <input type="city" name="city" id="city">
+    <label for="state">State:</label>
+    <input type="state" name="state" id="state">
+    <label for="zip-code">Zip Code:</label>
+    <input type="zip-code" name="zip-code" id="zip-code"><br><br>
+
+    <!-- checkbox area -->
+    <p>Choose a Sport:</p>
+    <input type="checkbox" name="Basketball" id="Basketball" value="Basketball">
+    <label for="basketball">Basketball</label>
+
+    <input type="checkbox" name="Football" id="Football" value="Football">
+    <label for="football">Football</label>
+
+    <input type="checkbox" name="Hockey" id="Hockey" value="Hockey">
+    <label for="hockey">Hockey</label>
+    <br><br>
+
+    <!-- radio area -->
+    <p>Choose a Year:</p>
+    <input type="radio" name="freshman" id="freshman" value="freshman">
+    <label for="freshman">Freshman</label>
+
+    <input type="radio" name="sophonmore" id="sophonmore" value="sophonmore">
+    <label for="sophonmore">Sophonmore</label>
+
+    <input type="radio" name="junior" id="junior" value="junior">
+    <label for="junior">Junior</label>
+
+    <input type="radio" name="senior" id="senior" value="senior">
+    <label for="senior">Senior</label>
+    <br><br>
+
+    <!-- dropdown multiple -->
+     <label for="food">Choose your favorite food:</label><br>
+     <select name="food" id="food" multiple>
+        <option value="chips">Chips</option>
+        <option value="pizza">Pizza</option>
+        <option value="nachos">Nachos</option>
+     </select><br><br>
+
+
+     <!-- textarea -->
+     <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Please let us know your comments"></textarea><br>
+
+
+     <input type="submit" name="submit" value="Send it">
+     <input type="submit" name="submit" value="Clear it">
+</form>
+
+
+</body>
+</html>
